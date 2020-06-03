@@ -1,0 +1,21 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/root/.nvm/versions/node/v14.3.0/bin/node',
+1 verbose cli   '/root/.nvm/versions/node/v14.3.0/bin/npm',
+1 verbose cli   'start'
+1 verbose cli ]
+2 info using npm@6.14.5
+3 info using node@v14.3.0
+4 verbose stack Error: ENOENT: no such file or directory, open '/root/script/package.json'
+5 verbose cwd /root/script
+6 verbose Linux 4.15.0-66-generic
+7 verbose argv "/root/.nvm/versions/node/v14.3.0/bin/node" "/root/.nvm/versions/node/v14.3.0/bin/npm" "start"
+8 verbose node v14.3.0
+9 verbose npm  v6.14.5
+10 error code ENOENT
+11 error syscall open
+12 error path /root/script/package.json
+13 error errno -2
+14 error enoent ENOENT: no such file or directory, open '/root/script/package.json'
+15 error enoent This is related to npm not being able to find a file.
+16 verbose exit [ -2, true ]
